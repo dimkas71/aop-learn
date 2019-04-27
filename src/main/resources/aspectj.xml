@@ -1,0 +1,35 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- this is the object that will be proxied by Spring's AOP infrastructure -->
+    
+    
+    
+    
+    <bean id="account" class="ua.selftaught.model.Account">
+    	<constructor-arg name="uuid" value="hello"/>
+    </bean>
+    	
+    
+
+    <!-- this is the actual advice itself -->
+    <bean id="profiler" class="ua.selftaught.aop.AccountProfiler"/>
+    
+    <aop:config>
+        <aop:aspect ref="profiler">
+
+            <aop:pointcut id="executionOfAccountMethods"
+                expression="execution(* ua.selftaught.model.*.*(..))"/>
+
+            <aop:around pointcut-ref="executionOfAccountMethods"
+                method="profile"/>
+
+        </aop:aspect>
+    </aop:config>
+	
+</beans>
+

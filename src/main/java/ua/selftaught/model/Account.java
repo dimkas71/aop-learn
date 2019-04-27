@@ -12,7 +12,10 @@ public class Account {
 		this.uuid = uuid;
 	}
 	
-	
+	public String getUuid() {
+		return uuid;
+	}
+
 	public void deposit(BigDecimal sum) {
 		this.balance = this.balance.add(sum);
 	}
