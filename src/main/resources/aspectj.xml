@@ -19,16 +19,28 @@
     <!-- this is the actual advice itself -->
     <bean id="profiler" class="ua.selftaught.aop.AccountProfiler"/>
     
+    <bean id="logger" class="ua.selftaught.aop.LoggingAdvice"/>
+    
     <aop:config>
         <aop:aspect ref="profiler">
 
             <aop:pointcut id="executionOfAccountMethods"
-                expression="execution(* ua.selftaught.model.*.*(..))"/>
+                expression="execution(* ua.selftaught.model.*.*(*))"/>
 
             <aop:around pointcut-ref="executionOfAccountMethods"
                 method="profile"/>
 
         </aop:aspect>
+        
+        
+        <aop:aspect ref="logger">
+        	<aop:pointcut id="loggingAccountMethods"
+                expression="execution(* ua.selftaught.model.Account.*(*))"/>
+        	<aop:around pointcut-ref="loggingAccountMethods" method="logging"/>
+        </aop:aspect>
+        
+        
+        
     </aop:config>
 	
 </beans>
