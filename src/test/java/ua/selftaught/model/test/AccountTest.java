@@ -66,6 +66,18 @@ class AccountTest {
 		
 	}
 	
-	
+	@Test
+	@DisplayName("Deposit and Withdrawal the same sum. Balance should be ZERO")
+	void whenDepositAndWithdrawalSameSumBalanceShouldBeZero() {
+		//arrange, act
+		final int SUM = 100;
+		account.deposit(new BigDecimal(SUM));
+		account.withdraw(new BigDecimal(SUM));
+		
+		//assert
+		Assertions.assertEquals(BigDecimal.ZERO, account.balance(), () -> "Should be equal ZERO");
+		
+		
+	}
 
 }
