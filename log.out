@@ -43,3 +43,126 @@ execution(* ua.selftaught.model.*.*(..) && args(sum))
 2019-04-27 18:16:28 INFO  LoggingAdvice:19 - Result null
 2019-04-27 18:16:28 INFO  LoggingAdvice:15 - Account.withdraw(99)
 2019-04-27 18:16:28 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:37:43 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 20:37:43 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:37:43 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 20:37:43 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:47:27 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 20:47:27 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:47:27 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 20:47:27 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:47:35 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 20:47:35 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:47:35 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 20:47:35 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:47:45 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 20:47:45 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:47:45 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 20:47:45 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:47:54 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 20:47:54 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:47:54 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 20:47:54 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:48:06 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 20:48:06 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:48:06 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 20:48:06 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:48:53 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 20:48:53 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:48:53 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 20:48:53 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:49:11 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 20:49:11 INFO  LoggingAdvice:19 - Result null
+2019-04-27 20:49:11 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 20:49:11 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:00:58 WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'account' defined in class path resource [aspectj.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2': Cannot create inner bean '(inner bean)#6156496' of type [org.springframework.aop.aspectj.AspectJAroundAdvice] while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#6156496': Cannot resolve reference to bean 'cachingFibonachiProvider' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'cachingFibonachiProvider' available
+2019-04-27 21:02:49 WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'account' defined in class path resource [aspectj.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.aspectj.AspectJPointcutAdvisor]: Constructor threw exception; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 65
+execution(* ua.selftaught.model.FibonacciProducer.generate(Long) && args(from))
+                                                                 ^^
+
+2019-04-27 21:03:31 WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'account' defined in class path resource [aspectj.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.aspectj.AspectJPointcutAdvisor]: Constructor threw exception; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 65
+execution(* ua.selftaught.model.FibonacciProducer.generate(Long) && args(from)
+                                                                 ^^
+
+2019-04-27 21:06:47 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 21:06:47 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:06:47 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 21:06:47 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:07:11 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 21:07:11 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:07:11 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 21:07:11 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:09:23 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 21:09:23 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:09:23 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 21:09:23 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:10:13 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 21:10:13 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:10:13 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 21:10:13 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:10:13 INFO  CachingAdvice:19 - From 47
+2019-04-27 21:12:20 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 21:12:20 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:12:20 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 21:12:20 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:12:20 INFO  CachingAdvice:19 - From 20
+2019-04-27 21:12:55 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 21:12:55 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:12:55 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 21:12:55 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:12:55 INFO  CachingAdvice:19 - From 20
+2019-04-27 21:16:05 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 21:16:05 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:16:05 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 21:16:05 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:16:05 INFO  CachingAdvice:19 - From -20
+2019-04-27 21:16:20 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 21:16:20 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:16:20 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 21:16:20 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:16:20 INFO  CachingAdvice:19 - From 30
+2019-04-27 21:17:18 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 21:17:18 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:17:18 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 21:17:18 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:17:18 INFO  CachingAdvice:19 - From 30
+2019-04-27 21:17:59 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 21:17:59 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:17:59 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 21:17:59 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:17:59 INFO  CachingAdvice:19 - From 30
+2019-04-27 21:18:15 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 21:18:15 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:18:15 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 21:18:15 INFO  LoggingAdvice:19 - Result null
+2019-04-27 21:18:15 INFO  CachingAdvice:19 - From 47
+2019-04-27 22:10:30 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 22:10:30 INFO  LoggingAdvice:19 - Result null
+2019-04-27 22:10:30 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 22:10:30 INFO  LoggingAdvice:19 - Result null
+2019-04-27 22:10:30 INFO  CachingAdvice:19 - From 47
+2019-04-27 22:18:22 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 22:18:22 INFO  LoggingAdvice:19 - Result null
+2019-04-27 22:18:22 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 22:18:22 INFO  LoggingAdvice:19 - Result null
+2019-04-27 22:20:19 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 22:20:19 INFO  LoggingAdvice:19 - Result null
+2019-04-27 22:20:19 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 22:20:19 INFO  LoggingAdvice:19 - Result null
+2019-04-27 22:20:33 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 22:20:33 INFO  LoggingAdvice:19 - Result null
+2019-04-27 22:20:33 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 22:20:33 INFO  LoggingAdvice:19 - Result null
+2019-04-27 22:20:44 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 22:20:44 INFO  LoggingAdvice:19 - Result null
+2019-04-27 22:20:44 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 22:20:44 INFO  LoggingAdvice:19 - Result null
+2019-04-27 22:20:55 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 22:20:55 INFO  LoggingAdvice:19 - Result null
+2019-04-27 22:20:55 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 22:20:55 INFO  LoggingAdvice:19 - Result null
+2019-04-27 22:21:04 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-04-27 22:21:04 INFO  LoggingAdvice:19 - Result null
+2019-04-27 22:21:04 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-04-27 22:21:04 INFO  LoggingAdvice:19 - Result null
+2019-04-27 22:21:04 INFO  CachingAdvice:19 - From 45

@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import ua.selftaught.model.Account;
+import ua.selftaught.model.FibonacciProducer;
 
 public class Main {
 
@@ -25,6 +26,10 @@ public class Main {
 			account.withdraw(new BigDecimal(99));
 
 			System.out.println("Balance = " + account.balance());
+			
+			FibonacciProducer fbp = (FibonacciProducer) ctx.getBean(FibonacciProducer.class);
+			
+			System.out.println(fbp.generate(45L));
 		}
 		
 
