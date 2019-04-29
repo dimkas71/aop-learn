@@ -17,7 +17,7 @@ public class CachingAspect {
 	
 	private Map<String, Object> cache = new HashMap<>();
 	
-	@Pointcut("execution(* *.*(long)) && args(val)")
+	@Pointcut("execution(* ua.selftaught.model.FibonacciProducer.generate(long)) && args(val)")
 	void generateExecution(long val) {}
 	
 	@Around("generateExecution(val)")

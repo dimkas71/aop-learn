@@ -13,7 +13,7 @@ public class FibonacciRunner {
 	
 	public static void main(String[] args) {
 		int value = DEFAULT_NUMBER;
-		if (args.length == 1) {
+		if (args.length >= 1) {
 			value = Integer.parseInt(args[0].trim());
 		}
 		
