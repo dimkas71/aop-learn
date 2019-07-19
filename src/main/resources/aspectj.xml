@@ -29,6 +29,7 @@
     
     <bean id="after" class="ua.selftaught.aop.DemoAfterAdvice"/>
     
+   
     <aop:config>
         <aop:aspect ref="profiler">
 
@@ -62,6 +63,7 @@
         	<aop:after method="after" pointcut-ref="demoAfterAdvice"/>
         </aop:aspect>
         
+     
     </aop:config>
 	
 </beans>

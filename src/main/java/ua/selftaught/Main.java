@@ -30,6 +30,12 @@ public class Main {
 			FibonacciProducer fbp = (FibonacciProducer) ctx.getBean(FibonacciProducer.class);
 			
 			System.out.println(fbp.generate(45L));
+			
+			try {
+				account.deposit(BigDecimal.valueOf(-1));
+			} catch (IllegalArgumentException iae) {
+				//iae.printStackTrace();
+			}
 		}
 		
 

@@ -406,3 +406,109 @@ execution(public ua.selftaught.model.Account.*(java.math.BigDecimal))
 2019-07-19 22:26:00 INFO  LoggingAdvice:19 - Result null
 2019-07-19 22:26:00 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
 2019-07-19 22:26:00 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:42:18 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:42:18 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:42:18 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:42:18 INFO  PositiveArgumentAccountAspect:20 - ARGUMENTS100
+2019-07-19 22:42:18 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:42:18 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:42:18 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:42:18 INFO  PositiveArgumentAccountAspect:20 - ARGUMENTS99
+2019-07-19 22:42:18 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:42:18 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:42:18 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:44:50 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:44:50 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:44:50 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:44:50 INFO  PositiveArgumentAccountAspect:20 - Method deposit
+2019-07-19 22:44:50 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:44:50 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:44:50 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:44:50 INFO  PositiveArgumentAccountAspect:20 - Method withdraw
+2019-07-19 22:44:50 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:44:50 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:44:50 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:45:58 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:45:58 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:45:58 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:45:58 INFO  PositiveArgumentAccountAspect:20 - Method deposit called with argument 100
+2019-07-19 22:45:58 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:45:58 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:45:58 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:45:58 INFO  PositiveArgumentAccountAspect:20 - Method withdraw called with argument 99
+2019-07-19 22:45:58 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:45:58 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:45:58 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:47:03 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:47:03 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:47:03 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:47:31 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:47:31 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:47:31 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:47:31 INFO  PositiveArgumentAccountAspect:23 - Method deposit called with argument 100
+2019-07-19 22:47:31 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:47:31 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:47:31 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:47:31 INFO  PositiveArgumentAccountAspect:23 - Method withdraw called with argument 99
+2019-07-19 22:47:31 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:47:31 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:47:31 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:49:46 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:49:46 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:49:46 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:49:46 INFO  PositiveArgumentAccountAspect:23 - Method deposit called with argument 100
+2019-07-19 22:49:46 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:49:46 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:49:46 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:49:46 INFO  PositiveArgumentAccountAspect:23 - Method withdraw called with argument 99
+2019-07-19 22:49:46 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:49:46 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:49:46 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:50:13 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:50:13 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:50:13 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:50:13 INFO  PositiveArgumentAccountAspect:23 - Method deposit called with argument 100
+2019-07-19 22:50:13 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:50:13 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:50:13 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:50:13 INFO  PositiveArgumentAccountAspect:23 - Method withdraw called with argument 99
+2019-07-19 22:50:13 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:50:13 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:50:13 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:50:13 INFO  LoggingAdvice:15 - Account.deposit(-1)
+2019-07-19 22:50:13 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:50:13 INFO  PositiveArgumentAccountAspect:23 - Method deposit called with argument -1
+2019-07-19 22:51:24 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:51:24 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:51:24 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:51:24 INFO  PositiveArgumentAccountAspect:23 - Method deposit called with argument 100
+2019-07-19 22:51:24 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:51:24 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:51:24 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:51:24 INFO  PositiveArgumentAccountAspect:23 - Method withdraw called with argument 99
+2019-07-19 22:51:24 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:51:24 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:51:24 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:51:24 INFO  LoggingAdvice:15 - Account.deposit(-1)
+2019-07-19 22:51:24 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:51:24 INFO  PositiveArgumentAccountAspect:23 - Method deposit called with argument -1
+2019-07-19 22:51:37 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:51:37 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:51:37 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:51:37 INFO  PositiveArgumentAccountAspect:23 - Method deposit called with argument 100
+2019-07-19 22:51:37 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:51:37 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:51:37 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:51:37 INFO  PositiveArgumentAccountAspect:23 - Method withdraw called with argument 99
+2019-07-19 22:51:37 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:51:37 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:51:37 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:51:37 INFO  LoggingAdvice:15 - Account.deposit(-1)
+2019-07-19 22:51:37 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:51:37 INFO  PositiveArgumentAccountAspect:23 - Method deposit called with argument -1
+2019-07-19 23:05:52 INFO  PositiveArgumentAccountAspect:23 - Method deposit called with argument 100
+2019-07-19 23:05:52 INFO  PositiveArgumentAccountAspect:23 - Method withdraw called with argument 200
+2019-07-19 23:05:53 INFO  PositiveArgumentAccountAspect:23 - Method deposit called with argument 100
+2019-07-19 23:05:53 INFO  PositiveArgumentAccountAspect:23 - Method withdraw called with argument 100
+2019-07-19 23:05:53 INFO  PositiveArgumentAccountAspect:23 - Method deposit called with argument 100
+2019-07-19 23:05:53 INFO  PositiveArgumentAccountAspect:23 - Method withdraw called with argument 50
