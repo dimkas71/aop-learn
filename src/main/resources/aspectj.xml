@@ -25,6 +25,10 @@
     
     <bean id="cache" class="ua.selftaught.aop.CachingAdvice"/>
     
+    <bean id="demo" class="ua.selftaught.aop.DemoBeforeAdvice"/>
+    
+    <bean id="after" class="ua.selftaught.aop.DemoAfterAdvice"/>
+    
     <aop:config>
         <aop:aspect ref="profiler">
 
@@ -46,6 +50,16 @@
         <aop:aspect ref="cache">
         	<aop:pointcut expression="execution(* ua.selftaught.model.FibonacciProducer.generate(long)) and args(from)" id="cachingFibonacciProvider"/>
         	<aop:around method="caching" pointcut-ref="cachingFibonacciProvider"/>
+        </aop:aspect>
+        
+        <aop:aspect ref="demo">
+        	<aop:pointcut expression="execution(public void ua.selftaught.model.Account.*(java.math.BigDecimal))" id="demoAdvice"/>
+        	<aop:before method="before" pointcut-ref="demoAdvice"/>
+        </aop:aspect>
+        
+        <aop:aspect ref="after">
+        	<aop:pointcut expression="execution(public java.math.BigDecimal ua.selftaught.model.Account.*())" id="demoAfterAdvice"/>
+        	<aop:after method="after" pointcut-ref="demoAfterAdvice"/>
         </aop:aspect>
         
     </aop:config>

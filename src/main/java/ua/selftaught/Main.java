@@ -24,7 +24,7 @@ public class Main {
 			account.deposit(new BigDecimal(100));
 
 			account.withdraw(new BigDecimal(99));
-
+			
 			System.out.println("Balance = " + account.balance());
 			
 			FibonacciProducer fbp = (FibonacciProducer) ctx.getBean(FibonacciProducer.class);

@@ -1,0 +1,408 @@
+2019-06-02 21:58:57 INFO  PersistenceXmlParser:226 - HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2019-06-02 22:00:02 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 22:00:02 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 22:00:02 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 22:00:02 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 22:00:03 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:02:08 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 22:02:08 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 22:02:09 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 22:02:09 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 22:02:09 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:02:09 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 22:02:09 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 22:02:09 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 22:02:09 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 22:02:09 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 22:02:11 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6a9287b1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 22:02:11 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 22:02:11 INFO  Main:19 - hello world
+2019-06-02 22:04:17 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 22:04:18 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 22:04:18 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 22:04:18 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 22:04:18 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:04:18 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 22:04:18 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 22:04:18 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 22:04:18 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 22:04:18 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 22:04:20 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@607b2792] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 22:04:20 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 22:06:11 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 22:06:11 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 22:06:11 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 22:06:11 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 22:06:11 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:06:11 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 22:06:11 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 22:06:11 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 22:06:11 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 22:06:11 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 22:06:12 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@607b2792] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 22:06:12 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 22:09:14 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 22:09:14 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 22:09:14 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 22:09:14 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 22:09:15 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:09:15 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 22:09:15 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 22:09:15 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 22:09:15 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 22:09:15 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 22:09:17 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@607b2792] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 22:09:17 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 22:09:34 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 22:09:34 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 22:09:35 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 22:09:35 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 22:09:35 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:09:35 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 22:09:35 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 22:09:35 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 22:09:35 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 22:09:35 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 22:09:36 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@607b2792] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 22:09:36 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 22:09:37 INFO  Main:25 - Employee Employee(id=1, name=Dimkas)
+2019-06-02 22:10:30 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 22:10:31 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 22:10:31 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 22:10:31 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 22:10:31 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:10:31 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 22:10:31 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 22:10:31 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 22:10:31 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 22:10:32 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 22:10:33 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@607b2792] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 22:10:33 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 22:10:33 INFO  Main:25 - Employee Employee(id=1, name=Dimkas)
+2019-06-02 22:19:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 22:19:06 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 22:19:06 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 22:19:06 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 22:19:06 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:19:06 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 22:19:06 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 22:19:06 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 22:19:06 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 22:19:07 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 22:22:46 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 22:22:46 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 22:22:47 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 22:22:47 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 22:22:47 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:22:47 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 22:22:47 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 22:22:47 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 22:22:47 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 22:22:47 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 22:36:53 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 22:36:53 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 22:36:53 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 22:36:53 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 22:36:54 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:36:54 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 22:36:54 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 22:36:54 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 22:36:54 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 22:36:54 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 22:36:55 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5432050b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 22:36:55 WARN  SqlExceptionHelper:230 - SQL Warning Code: 0, SQLState: 00000
+2019-06-02 22:36:55 WARN  SqlExceptionHelper:231 - constraint "uk_m0pd4kh9v49rse8kmea4sa95v" of relation "emails" does not exist, skipping
+2019-06-02 22:36:55 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 22:36:56 INFO  Main:26 - Employee Employee(id=1, name=Dimkas, emails=[])
+2019-06-02 22:36:56 INFO  AbstractBatchImpl:201 - HHH000010: On release of batch it still contained JDBC statements
+2019-06-02 22:56:01 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 22:56:01 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 22:56:02 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 22:56:02 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 22:56:02 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:56:02 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 22:56:02 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 22:56:02 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 22:56:02 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 22:56:02 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 22:56:04 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@25c5e994] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 22:56:04 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 22:56:04 INFO  Main:23 - Employee Employee(id=1, name=Dimkas, emails=[])
+2019-06-02 22:56:04 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 23502
+2019-06-02 22:56:04 ERROR SqlExceptionHelper:142 - ERROR: null value in column "emails_id" violates not-null constraint
+  Detail: Failing row contains (1, null, dimkas71@ukr.net).
+2019-06-02 22:56:04 INFO  AbstractBatchImpl:201 - HHH000010: On release of batch it still contained JDBC statements
+2019-06-02 22:58:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 22:58:06 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 22:58:06 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 22:58:06 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 22:58:06 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 22:58:06 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 22:58:06 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 22:58:06 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 22:58:06 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 22:58:07 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 22:58:08 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@28cb9120] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 22:58:08 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 22:58:08 INFO  Main:23 - Employee Employee(id=1, name=Dimkas, emails=[])
+2019-06-02 23:04:28 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 23:04:28 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 23:04:28 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 23:04:28 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 23:04:28 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 23:04:28 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 23:04:28 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 23:04:28 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 23:04:28 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 23:04:29 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 23:04:30 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@25c5e994] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 23:04:30 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 23:04:30 INFO  Main:23 - Employee Employee(id=1, name=Dimkas, emails=[dimkas71@ukr.net, dimkas71g@gmail.com])
+2019-06-02 23:05:10 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 23:05:10 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 23:05:10 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 23:05:10 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 23:05:10 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 23:05:10 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 23:05:10 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 23:05:10 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 23:05:10 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 23:05:11 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 23:05:12 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@25c5e994] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 23:05:12 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 23:05:12 INFO  Main:23 - Employee Employee(id=1, name=Dimkas, emails=[dimkas71@ukr.net])
+2019-06-02 23:08:40 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 23:08:41 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 23:08:41 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 23:08:41 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 23:08:41 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 23:08:41 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 23:08:41 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 23:08:41 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 23:08:41 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 23:08:41 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 23:08:42 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ad5923a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 23:08:43 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 23:08:43 INFO  Main:23 - Employee Employee(id=1, name=Dimkas, emails=[dimkas71@ukr.net, dimkas71g@gmail.com], phones=[])
+2019-06-02 23:10:56 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 23:10:56 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 23:10:56 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 23:10:56 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 23:10:57 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 23:10:57 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 23:10:57 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 23:10:57 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 23:10:57 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 23:10:57 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 23:10:58 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@61533ae] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 23:10:58 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 23:10:58 INFO  Main:23 - Employee Employee(id=1, name=Dimkas, emails=[dimkas71@ukr.net, dimkas71g@gmail.com], phones=[])
+2019-06-02 23:12:19 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 23:12:20 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 23:12:20 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 23:12:20 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 23:12:20 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 23:12:20 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 23:12:20 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 23:12:20 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 23:12:20 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 23:12:20 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 23:12:21 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@45f24169] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 23:12:22 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 23:12:22 INFO  Main:23 - Employee Employee(id=1, name=Dimkas, emails=[], phones=[050-815-10-21])
+2019-06-02 23:14:35 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 23:14:35 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 23:14:35 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 23:14:35 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 23:14:35 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 23:14:35 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 23:14:35 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 23:14:35 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 23:14:35 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 23:14:36 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 23:14:37 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@45f24169] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 23:14:37 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 23:14:37 INFO  Main:23 - Employee Employee(id=1, name=Dimkas, emails=[dimkas71g@gmail.com], phones=[050-815-10-21])
+2019-06-02 23:16:51 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 23:16:51 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 23:16:51 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 23:16:51 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 23:16:52 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 23:16:52 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 23:16:52 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 23:16:52 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 23:16:52 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 23:16:52 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 23:16:53 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@45f24169] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 23:16:53 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 23:16:54 INFO  Main:25 - Emails: [dimkas71@ukr.net, dimkas71g@gmail.com]
+2019-06-02 23:17:52 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 23:17:53 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 23:17:53 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 23:17:53 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 23:17:53 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 23:17:53 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 23:17:53 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 23:17:53 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 23:17:53 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 23:17:53 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 23:17:55 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@45f24169] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 23:17:55 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 23:17:55 INFO  Main:25 - Emails: [dimkas71@ukr.net, dimkas71g@gmail.com]
+2019-06-02 23:17:55 INFO  Main:27 - Phones: [050-815-10-21]
+2019-06-02 23:18:18 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 23:18:19 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 23:18:19 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 23:18:19 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 23:18:19 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 23:18:19 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 23:18:19 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 23:18:19 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 23:18:19 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 23:18:19 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 23:18:20 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@a0a9fa5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 23:18:20 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 23:18:21 INFO  Main:25 - Emails: [dimkas71@ukr.net, dimkas71g@gmail.com]
+2019-06-02 23:18:21 INFO  Main:27 - Phones: [050-815-10-21]
+2019-06-02 23:18:50 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 23:18:50 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 23:18:50 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 23:18:50 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 23:18:50 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 23:18:50 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 23:18:50 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 23:18:50 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 23:18:50 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 23:18:50 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 23:18:52 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@312afbc7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 23:18:52 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 23:18:52 INFO  Main:25 - Emails: [dimkas71@ukr.net, dimkas71g@gmail.com]
+2019-06-02 23:18:52 INFO  Main:27 - Phones: [050-815-10-21]
+2019-06-02 23:19:26 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 23:19:27 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 23:19:27 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 23:19:27 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 23:19:27 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 23:19:27 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 23:19:27 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 23:19:27 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 23:19:27 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 23:19:27 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 23:19:28 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@45f24169] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 23:19:29 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 23:19:29 INFO  Main:25 - Emails: [dimkas71@ukr.net, dimkas71g@gmail.com]
+2019-06-02 23:19:29 INFO  Main:27 - Phones: [050-815-10-21]
+2019-06-02 23:19:44 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 23:19:44 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 23:19:44 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 23:19:44 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 23:19:45 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 23:19:45 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 23:19:45 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 23:19:45 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 23:19:45 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 23:19:45 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 23:19:46 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@45f24169] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 23:19:46 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 23:19:46 INFO  Main:27 - Phones: [050-815-10-21]
+2019-06-02 23:20:19 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: ua.selftaught.hibernate.jpa]
+2019-06-02 23:20:19 INFO  Version:46 - HHH000412: Hibernate Core {5.4.3.Final}
+2019-06-02 23:20:20 WARN  CachingRegionFactory:48 - org.hibernate.testing.cache.CachingRegionFactory should be only used for testing.
+2019-06-02 23:20:20 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-06-02 23:20:20 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-06-02 23:20:20 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://127.0.0.1:5432/hibernate]
+2019-06-02 23:20:20 INFO  pooling:124 - HHH10001001: Connection properties: {user=postgres, password=****}
+2019-06-02 23:20:20 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2019-06-02 23:20:20 INFO  DriverManagerConnectionProviderImpl:239 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-02 23:20:20 INFO  Dialect:158 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-02 23:20:21 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@45f24169] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-06-02 23:20:22 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-06-02 23:20:22 INFO  Main:25 - Employee Employee(id=1, name=Dimkas, emails=[dimkas71@ukr.net, dimkas71g@gmail.com], phones=[050-815-10-21])
+2019-06-02 23:20:22 INFO  Main:27 - Emails: [dimkas71@ukr.net, dimkas71g@gmail.com]
+2019-06-02 23:20:22 INFO  Main:29 - Phones: [050-815-10-21]
+2019-07-19 21:10:42 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 21:10:42 INFO  LoggingAdvice:19 - Result null
+2019-07-19 21:10:42 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 21:10:42 INFO  LoggingAdvice:19 - Result null
+2019-07-19 21:10:42 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:10:31 WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'account' defined in class path resource [aspectj.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.aspectj.AspectJPointcutAdvisor]: Constructor threw exception; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting '(' at character position 68
+execution(public ua.selftaught.model.Account.*(java.math.BigDecimal))
+                                                                    ^
+
+2019-07-19 22:11:14 WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'account' defined in class path resource [aspectj.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.aspectj.AspectJPointcutAdvisor]: Constructor threw exception; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting '(' at character position 68
+execution(public ua.selftaught.model.Account.*(java.math.BigDecimal)))
+                                                                    ^
+
+2019-07-19 22:12:30 WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'account' defined in class path resource [aspectj.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.aspectj.AspectJPointcutAdvisor]: Constructor threw exception; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 47
+execution(public ua.selftaught.model.Account.*(..))
+                                               ^
+
+2019-07-19 22:13:08 WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'account' defined in class path resource [aspectj.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.aspectj.AspectJPointcutAdvisor]: Constructor threw exception; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting '(' at character position 49
+execution(public ua.selftaught.model.Account.*(*))
+                                                 ^
+
+2019-07-19 22:13:55 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:13:55 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:13:55 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:13:55 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:13:55 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:13:55 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:13:55 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:14:22 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:14:22 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:14:22 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:14:22 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:14:22 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:14:22 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:14:22 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:15:24 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:15:24 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:15:24 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:15:24 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:15:24 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:15:24 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:15:24 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:16:03 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:16:03 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:16:03 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:16:03 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:16:03 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:16:03 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:16:03 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:16:03 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:16:03 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:16:03 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:16:35 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:16:35 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:16:35 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:16:35 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:16:35 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:16:35 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:16:35 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:17:54 WARN  ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'account' defined in class path resource [aspectj.xml]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.aop.aspectj.AspectJPointcutAdvisor]: Constructor threw exception; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting '(' at character position 68
+execution(public ua.selftaught.model.Account.*(java.math.BigDecimal))
+                                                                    ^
+
+2019-07-19 22:18:44 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:18:44 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:18:44 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:18:44 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:18:44 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:18:44 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:18:44 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:19:23 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:19:23 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:19:23 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:19:23 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:19:23 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:19:23 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:19:23 INFO  CachingAdvice:19 - From 45
+2019-07-19 22:26:00 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:26:00 INFO  LoggingAdvice:15 - Account.deposit(100)
+2019-07-19 22:26:00 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:26:00 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:26:00 INFO  LoggingAdvice:15 - Account.withdraw(99)
+2019-07-19 22:26:00 INFO  DemoBeforeAdvice:11 - before advicing
+2019-07-19 22:26:00 INFO  LoggingAdvice:19 - Result null
+2019-07-19 22:26:00 INFO  DemoAfterAdvice:11 - After advice: this method is called after method that returns BigDecimal, balance for example
+2019-07-19 22:26:00 INFO  CachingAdvice:19 - From 45
